@@ -9,9 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-import java.util.Random;
-import java.util.UUID;
+import java.util.*;
 
 @Service
 public class RiskService {
@@ -20,6 +18,8 @@ public class RiskService {
     private final RiskRepository riskRepository;
 
     private final CardService cardService;
+
+    private final List<String> cardsToMove = Arrays.asList("THE END", "JE VAIS TE NIQUER", "CHARGEZZZZ");
 
     @Autowired
     public RiskService(RiskRepository riskRepository, CardService cardService) {
@@ -30,7 +30,7 @@ public class RiskService {
     public RiskBoard createBoard(int nbPlayer) {
         List<RiskCard> deck = cardService.shuffleAndGet(DECK_SIZE);
 
-        return riskRepository.createBoard(nbPlayer, shuffleTheEndCardToTheEndOfDeck(deck, nbPlayer));
+        return riskRepository.createBoard(nbPlayer, shuffleCardToTheEndOfDeck(deck, nbPlayer));
     }
 
     public RiskBoard getBoard(UUID uuid) {
@@ -41,16 +41,37 @@ public class RiskService {
         return riskRepository.getBoard(uuid).pickAndNext();
     }
 
-    private List<RiskCard> shuffleTheEndCardToTheEndOfDeck(List<RiskCard> deck, int nbPlayer) {
-        RiskCard theEndCard = deck.stream()
-                .filter((card) -> card.getName().equals("THE END"))
-                .findFirst().orElseThrow(() -> new ApplicationException(HttpStatus.INTERNAL_SERVER_ERROR, "Une erreur est survenu lors du trie des cartes"));
-
-        if(deck.indexOf(theEndCard) < nbPlayer * 4) {
-            deck.remove(theEndCard);
-            deck.add(new Random().nextInt(deck.size() - ( (nbPlayer * 4) - 1)) +  (nbPlayer * 4), theEndCard);
-        }
-
+    private List<RiskCard> shuffleCardToTheEndOfDeck(List<RiskCard> deck, int nbPlayer) {
+        boolean moved;
+        do {
+            moved = false;
+            for (String cardName : cardsToMove) {
+                moved = moveToTheEnd(deck, nbPlayer, cardName) || moved;
+            }
+        } while (moved);
         return deck;
+    }
+
+    private boolean moveToTheEnd(List<RiskCard> deck, int nbPlayer, String cardName) {
+        boolean move = false;
+        RiskCard cardToMove = findCarte(deck, cardName);
+        do {
+            if (deck.indexOf(cardToMove) < nbPlayer * 4) {
+                deck.remove(cardToMove);
+                deck.add(new Random().nextInt(deck.size() - ((nbPlayer * 4) - 1)) + (nbPlayer * 4), cardToMove);
+                move = true;
+            }
+
+            cardToMove = findCarte(deck, cardName);
+        } while (deck.indexOf(cardToMove) < nbPlayer * 4);
+
+
+        return move;
+    }
+
+    private RiskCard findCarte(List<RiskCard> deck, String cardName) {
+        return deck.stream()
+                .filter((card) -> card.getName().equals(cardName))
+                .findFirst().orElseThrow(() -> new ApplicationException(HttpStatus.INTERNAL_SERVER_ERROR, "Une erreur est survenu lors du trie des cartes"));
     }
 }

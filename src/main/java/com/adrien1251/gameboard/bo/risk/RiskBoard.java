@@ -28,14 +28,6 @@ public class RiskBoard implements Serializable {
 
     public RiskCard pickAndNext() {
         if(actualCardIndex == deck.size()) throw new ApplicationException(HttpStatus.NOT_FOUND, "The deck is empty");
-        return replaceName(this.deck.get(actualCardIndex++));
-    }
-
-    private RiskCard replaceName(RiskCard riskCard) {
-        if(riskCard.getDetail().contains("{value}")) {
-            int pickedPlayer = new Random().nextInt(nbPlayer) + 1;
-            riskCard.setDetail(riskCard.getDetail().replace("{value}",  pickedPlayer + ""));
-        }
-        return riskCard;
+        return this.deck.get(actualCardIndex++);
     }
 }
