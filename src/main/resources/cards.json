@@ -1,0 +1,67 @@
+[
+  {
+    "name": "The end",
+    "detail": "La partie finit dans 1 tour",
+    "image": ""
+  },
+  {
+    "name": "Scandale",
+    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "image": ""
+  },
+  {
+    "name": "Lucky",
+    "detail": "Si le joueur {value} arrive à controller un territoire à la fin du tour, il gagne la partie",
+    "image": ""
+  },
+  {
+    "name": "Scandale",
+    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "image": ""
+  },
+  {
+    "name": "Scandale",
+    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "image": ""
+  },
+  {
+    "name": "Scandale",
+    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "image": ""
+  },
+  {
+    "name": "Scandale",
+    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "image": ""
+  },
+  {
+    "name": "Scandale",
+    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "image": ""
+  },
+  {
+    "name": "Scandale",
+    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "image": ""
+  },
+  {
+    "name": "Scandale",
+    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "image": ""
+  },
+  {
+    "name": "Scandale",
+    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "image": ""
+  },
+  {
+    "name": "Scandale",
+    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "image": ""
+  },
+  {
+    "name": "Scandale",
+    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "image": ""
+  }
+]
