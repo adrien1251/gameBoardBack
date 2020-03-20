@@ -18,20 +18,20 @@ public class RiskBoard implements Serializable {
     private UUID uuid;
     private int nbPlayer;
 
-    private int actualCardIndex;
+    private int nextCardIndex;
     private RiskCard actualCard;
 
     public RiskBoard(int nbPlayer, List<RiskCard> deck) {
         this.uuid = UUID.randomUUID();
-        this.actualCardIndex = 0;
+        this.nextCardIndex = 1;
         this.nbPlayer = nbPlayer;
         this.deck = deck;
-        this.actualCard = this.deck.get(actualCardIndex);
+        this.actualCard = this.deck.get(nextCardIndex);
     }
 
     public RiskCard pickAndNext() {
-        if(actualCardIndex == deck.size()) throw new ApplicationException(HttpStatus.NOT_FOUND, "The deck is empty");
-        this.actualCard = this.deck.get(actualCardIndex++);;
+        if(nextCardIndex == deck.size()) throw new ApplicationException(HttpStatus.NOT_FOUND, "The deck is empty");
+        this.actualCard = this.deck.get(nextCardIndex++);;
         return this.actualCard;
     }
 }
