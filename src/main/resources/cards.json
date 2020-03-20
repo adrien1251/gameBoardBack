@@ -1,67 +1,273 @@
 [
   {
-    "name": "The end",
+    "name": "THE END",
     "detail": "La partie finit dans 1 tour",
     "image": ""
   },
   {
-    "name": "Scandale",
-    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "name": "CHARGEZZZZ",
+    "detail": "Le joueur doit attaquer un territoire à 5 unités ou +",
     "image": ""
   },
   {
-    "name": "Lucky",
-    "detail": "Si le joueur {value} arrive à controller un territoire à la fin du tour, il gagne la partie",
+    "name": "JE VAIS TE NIQUER",
+    "detail": "Le joueur  doit attaquer un territoite à 10 unités ou +",
     "image": ""
   },
   {
-    "name": "Scandale",
-    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "name": "MEC T'AS TROP DE CHATTE",
+    "detail": "T'as le droit de faire ce que tu veux se tour-ci",
+    "image":""
+  },
+  {
+    "name": "PAS BOUGEZ",
+    "detail": "Le joueur n'as pas le droit d'attaquer",
     "image": ""
   },
   {
-    "name": "Scandale",
-    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "name": "JE VOUS AIME PAS DE TOUTE FACON JE PREFERE MES VRAIS POTES",
+    "detail": "le joueur doit attaquer obligatoirement deux gays différents ce tour",
     "image": ""
   },
   {
-    "name": "Scandale",
-    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "name": "TU T ES PRIS POUR NAPOLEON ?",
+    "detail": "Le joueur doit conquerir au minimum 3 territoires ce tour",
     "image": ""
   },
   {
-    "name": "Scandale",
-    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "name": "BOUGE TON CUL, CAMPOUSE",
+    "detail": "Le joueur doit bouger sa plus grosse armée de place lors de la fortification",
     "image": ""
   },
   {
-    "name": "Scandale",
-    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "name": "TA DEFENSE C EST DU GRUYERE",
+    "detail": "T'AS PAS LE DROIT DE FORTIFIER TES TROUPES",
     "image": ""
   },
   {
-    "name": "Scandale",
-    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "name": "ON SE SEPARE",
+    "detail": "Divise tes renforts sur 3 territoires différents",
     "image": ""
   },
   {
-    "name": "Scandale",
-    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "name": "CHARGEZZZZ",
+    "detail": "Le joueur doit attaquer un territoire à 5 unités ou +",
     "image": ""
   },
   {
-    "name": "Scandale",
-    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "name": "JE VAIS TE NIQUER",
+    "detail": "Le joueur  doit attaquer un territoite à 10 unités ou +",
     "image": ""
   },
   {
-    "name": "Scandale",
-    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "name": "MEC T'AS TROP DE CHATTE",
+    "detail": "T'as le droit de faire ce que tu veux se tour-ci",
+    "image":""
+  },{
+  "name": "MEC T'AS TROP DE CHATTE",
+  "detail": "T'as le droit de faire ce que tu veux se tour-ci",
+  "image":""
+},{
+  "name": "MEC T'AS TROP DE CHATTE",
+  "detail": "T'as le droit de faire ce que tu veux se tour-ci",
+  "image":""
+},{
+  "name": "MEC T'AS TROP DE CHATTE",
+  "detail": "T'as le droit de faire ce que tu veux se tour-ci",
+  "image":""
+},{
+  "name": "MEC T'AS TROP DE CHATTE",
+  "detail": "T'as le droit de faire ce que tu veux se tour-ci",
+  "image":""
+},
+  {
+    "name": "PAS BOUGEZ",
+    "detail": "Le joueur n'as pas le droit d'attaquer",
+    "image": ""
+  },{
+  "name": "PAS BOUGEZ",
+  "detail": "Le joueur n'as pas le droit d'attaquer",
+  "image": ""
+},{
+  "name": "JE VOUS AIME PAS DE TOUTE FACON JE PREFERE MES VRAIS POTES",
+  "detail": "le joueur doit attaquer obligatoirement deux gays différents ce tour",
+  "image": ""
+},{
+  "name": "JE VOUS AIME PAS DE TOUTE FACON JE PREFERE MES VRAIS POTES",
+  "detail": "le joueur doit attaquer obligatoirement deux gays différents ce tour",
+  "image": ""
+},{
+  "name": "TU T ES PRIS POUR NAPOLEON ?",
+  "detail": "Le joueur doit conquerir au minimum 3 territoires ce tour",
+  "image": ""
+},{
+  "name": "TU T ES PRIS POUR NAPOLEON ?",
+  "detail": "Le joueur doit conquerir au minimum 3 territoires ce tour",
+  "image": ""
+},{
+  "name": "BOUGE TON CUL, CAMPOUSE",
+  "detail": "Le joueur doit bouger sa plus grosse armée de place lors de la fortification",
+  "image": ""
+},{
+  "name": "TA DEFENSE C EST DU GRUYERE",
+  "detail": "T'AS PAS LE DROIT DE FORTIFIER TES TROUPES",
+  "image": ""
+},{
+  "name": "TA DEFENSE C EST DU GRUYERE",
+  "detail": "T'AS PAS LE DROIT DE FORTIFIER TES TROUPES",
+  "image": ""
+},{
+  "name": "ON SE SEPARE",
+  "detail": "Divise tes renforts sur 3 territoires différents",
+  "image": ""
+},{
+  "name": "ON SE SEPARE",
+  "detail": "Divise tes renforts sur 3 territoires différents",
+  "image": ""
+},{
+  "name": "MEC T'AS TROP DE CHATTE",
+  "detail": "T'as le droit de faire ce que tu veux se tour-ci",
+  "image":""
+},{
+  "name": "MEC T'AS TROP DE CHATTE",
+  "detail": "T'as le droit de faire ce que tu veux se tour-ci",
+  "image":""
+},{
+  "name": "MEC T'AS TROP DE CHATTE",
+  "detail": "T'as le droit de faire ce que tu veux se tour-ci",
+  "image":""
+},
+  {
+    "name": "CHARGEZZZZ",
+    "detail": "Le joueur doit attaquer un territoire à 5 unités ou +",
     "image": ""
   },
   {
-    "name": "Scandale",
-    "detail": "Le joueur {value} doit attaquer un territoire avec au moins 10 troupes (Si il n'y en a pas, il doit attaquer le plus fort territoire autout de lui)",
+    "name": "JE VAIS TE NIQUER",
+    "detail": "Le joueur  doit attaquer un territoite à 10 unités ou +",
     "image": ""
-  }
+  },
+  {
+    "name": "MEC T'AS TROP DE CHATTE",
+    "detail": "T'as le droit de faire ce que tu veux se tour-ci",
+    "image":""
+  },
+  {
+    "name": "PAS BOUGEZ",
+    "detail": "Le joueur n'as pas le droit d'attaquer",
+    "image": ""
+  },
+  {
+    "name": "JE VOUS AIME PAS DE TOUTE FACON JE PREFERE MES VRAIS POTES",
+    "detail": "le joueur doit attaquer obligatoirement deux gays différents ce tour",
+    "image": ""
+  },
+  {
+    "name": "TU T ES PRIS POUR NAPOLEON ?",
+    "detail": "Le joueur doit conquerir au minimum 3 territoires ce tour",
+    "image": ""
+  },
+  {
+    "name": "BOUGE TON CUL, CAMPOUSE",
+    "detail": "Le joueur doit bouger sa plus grosse armée de place lors de la fortification",
+    "image": ""
+  },
+  {
+    "name": "TA DEFENSE C EST DU GRUYERE",
+    "detail": "T'AS PAS LE DROIT DE FORTIFIER TES TROUPES",
+    "image": ""
+  },
+  {
+    "name": "ON SE SEPARE",
+    "detail": "Divise tes renforts sur 3 territoires différents",
+    "image": ""
+  },
+  {
+    "name": "CHARGEZZZZ",
+    "detail": "Le joueur doit attaquer un territoire à 5 unités ou +",
+    "image": ""
+  },
+  {
+    "name": "JE VAIS TE NIQUER",
+    "detail": "Le joueur  doit attaquer un territoite à 10 unités ou +",
+    "image": ""
+  },
+  {
+    "name": "MEC T'AS TROP DE CHATTE",
+    "detail": "T'as le droit de faire ce que tu veux se tour-ci",
+    "image":""
+  },{
+  "name": "MEC T'AS TROP DE CHATTE",
+  "detail": "T'as le droit de faire ce que tu veux se tour-ci",
+  "image":""
+},{
+  "name": "MEC T'AS TROP DE CHATTE",
+  "detail": "T'as le droit de faire ce que tu veux se tour-ci",
+  "image":""
+},{
+  "name": "MEC T'AS TROP DE CHATTE",
+  "detail": "T'as le droit de faire ce que tu veux se tour-ci",
+  "image":""
+},{
+  "name": "MEC T'AS TROP DE CHATTE",
+  "detail": "T'as le droit de faire ce que tu veux se tour-ci",
+  "image":""
+},
+  {
+    "name": "PAS BOUGEZ",
+    "detail": "Le joueur n'as pas le droit d'attaquer",
+    "image": ""
+  },{
+  "name": "PAS BOUGEZ",
+  "detail": "Le joueur n'as pas le droit d'attaquer",
+  "image": ""
+},{
+  "name": "JE VOUS AIME PAS DE TOUTE FACON JE PREFERE MES VRAIS POTES",
+  "detail": "le joueur doit attaquer obligatoirement deux gays différents ce tour",
+  "image": ""
+},{
+  "name": "JE VOUS AIME PAS DE TOUTE FACON JE PREFERE MES VRAIS POTES",
+  "detail": "le joueur doit attaquer obligatoirement deux gays différents ce tour",
+  "image": ""
+},{
+  "name": "TU T ES PRIS POUR NAPOLEON ?",
+  "detail": "Le joueur doit conquerir au minimum 3 territoires ce tour",
+  "image": ""
+},{
+  "name": "TU T ES PRIS POUR NAPOLEON ?",
+  "detail": "Le joueur doit conquerir au minimum 3 territoires ce tour",
+  "image": ""
+},{
+  "name": "BOUGE TON CUL, CAMPOUSE",
+  "detail": "Le joueur doit bouger sa plus grosse armée de place lors de la fortification",
+  "image": ""
+},{
+  "name": "TA DEFENSE C EST DU GRUYERE",
+  "detail": "T'AS PAS LE DROIT DE FORTIFIER TES TROUPES",
+  "image": ""
+},{
+  "name": "TA DEFENSE C EST DU GRUYERE",
+  "detail": "T'AS PAS LE DROIT DE FORTIFIER TES TROUPES",
+  "image": ""
+},{
+  "name": "ON SE SEPARE",
+  "detail": "Divise tes renforts sur 3 territoires différents",
+  "image": ""
+},{
+  "name": "ON SE SEPARE",
+  "detail": "Divise tes renforts sur 3 territoires différents",
+  "image": ""
+},{
+  "name": "MEC T'AS TROP DE CHATTE",
+  "detail": "T'as le droit de faire ce que tu veux se tour-ci",
+  "image":""
+},{
+  "name": "MEC T'AS TROP DE CHATTE",
+  "detail": "T'as le droit de faire ce que tu veux se tour-ci",
+  "image":""
+},{
+  "name": "MEC T'AS TROP DE CHATTE",
+  "detail": "T'as le droit de faire ce que tu veux se tour-ci",
+  "image":""
+}
 ]

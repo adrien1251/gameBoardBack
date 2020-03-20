@@ -15,7 +15,7 @@ import java.util.UUID;
 
 @Service
 public class RiskService {
-    private final int DECK_SIZE = 20;
+    private final int DECK_SIZE = 30;
 
     private final RiskRepository riskRepository;
 
@@ -30,7 +30,7 @@ public class RiskService {
     public RiskBoard createBoard(int nbPlayer) {
         List<RiskCard> deck = cardService.shuffleAndGet(DECK_SIZE);
 
-        return riskRepository.createBoard(nbPlayer, shuffleTheEndCardToTheEndOfDeck(deck));
+        return riskRepository.createBoard(nbPlayer, shuffleTheEndCardToTheEndOfDeck(deck, nbPlayer));
     }
 
     public RiskBoard getBoard(UUID uuid) {
@@ -41,14 +41,14 @@ public class RiskService {
         return riskRepository.getBoard(uuid).pickAndNext();
     }
 
-    private List<RiskCard> shuffleTheEndCardToTheEndOfDeck(List<RiskCard> deck) {
+    private List<RiskCard> shuffleTheEndCardToTheEndOfDeck(List<RiskCard> deck, int nbPlayer) {
         RiskCard theEndCard = deck.stream()
-                .filter((card) -> card.getName().equals("The end"))
+                .filter((card) -> card.getName().equals("THE END"))
                 .findFirst().orElseThrow(() -> new ApplicationException(HttpStatus.INTERNAL_SERVER_ERROR, "Une erreur est survenu lors du trie des cartes"));
 
-        if(deck.indexOf(theEndCard) < 3) {
+        if(deck.indexOf(theEndCard) < nbPlayer * 4) {
             deck.remove(theEndCard);
-            deck.add(new Random().nextInt(deck.size() - 2) + 3, theEndCard);
+            deck.add(new Random().nextInt(deck.size() - ( (nbPlayer * 4) - 1)) +  (nbPlayer * 4), theEndCard);
         }
 
         return deck;
