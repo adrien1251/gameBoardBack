@@ -13,7 +13,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/risk")
-@CrossOrigin("*")
+@CrossOrigin(origins = "*")
 public class RiskController extends ExceptionCatcher {
     private final RiskService riskService;
 
